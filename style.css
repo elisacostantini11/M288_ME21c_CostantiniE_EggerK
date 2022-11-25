@@ -1,0 +1,40 @@
+.space {
+    padding: 2%;
+    margin: 3%;
+}
+
+.username {
+    padding: 1%;
+    margin: 1%
+}
+
+.password {
+    padding: 1%;
+    margin: 1%;
+}
+
+.submit {
+    padding: 1%;
+    margin: 1%;
+    width: 100px;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 5%;
+    color: white;
+}
+
+.submit:hover {
+    opacity: 0.6;
+}
+
+input[type=text] {
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    width: 400px;
+
+}
+
+input:focus {
+    outline-color: blueviolet;
+}
