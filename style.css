@@ -1,40 +1,45 @@
-.space {
-    padding: 2%;
-    margin: 3%;
-}
-
-.username {
-    padding: 1%;
-    margin: 1%
-}
-
-.password {
-    padding: 1%;
-    margin: 1%;
-}
-
-.submit {
-    padding: 1%;
-    margin: 1%;
-    width: 100px;
-    border: none;
-    background-color: blueviolet;
-    border-radius: 5%;
-    color: white;
-}
-
-.submit:hover {
-    opacity: 0.6;
-}
-
-input[type=text] {
-    box-sizing: border-box;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    width: 400px;
-
-}
-
 input:focus {
     outline-color: blueviolet;
+}
+
+body {
+    background-color: black;
+}
+
+form {
+    margin: 50px 0 0 75px;
+    padding: auto;
+}
+
+.form-control {
+    padding: 10px;
+    border-radius: 0;
+    background: transparent;
+    color: #ffffff;
+    width: 23%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+    padding: 10px;
+    margin-right: 85px;
+    width: 10%;
+    border-radius: 0;
+    background: transparent;
+    color: #ffffff;
+}
+
+#error,
+#erroruser,
+#errorpwd,
+#errorpwdchar {
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.requirements {
+    margin-left: 75px;
+    color: rgb(96, 96, 96);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9pt;
 }
