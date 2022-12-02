@@ -11,20 +11,42 @@
 </head>
 
 <body>
-    <div class="space">
-        <div>
-            <input type="text" name="spind" value="" placeholder="username" class="username" id="username">
+    <div class="middle">
+        <div class="container text-center">
+            <div class="form-input">
+                <p id="error"></p>
+                <form method="post" name="myForm" onsubmit="return validateForm()">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="user" placeholder="username">
+                        <p id="erroruser"></p>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="pass" placeholder="password">
+                        <p id="errorpwd"></p>
+                        <p id="errorpwdchar"></p>
+                    </div>
+
+                    <div class="form-group">
+                </form>
+                <!--Form-->
+
+                <input type="submit" class="btn btn-default" value="Login">
+
+
+            </div>
+            <!--Form-input-->
         </div>
-        <div>
-            <input type="text" name="spind" value="" placeholder="password" class="password" id="password">
-        </div>
-        <div>
-            <button class="submit">submit</button>
-        </div>
+        <!--COntainer-->
+
+
+        <p class="requirements">*/Your password must contain:<br>
+            - min. 6 letters<br>
+            - upper & lowercase letter<br>
+            - special character<br>
+        </p>
+
     </div>
-
-
-
 
 </body>
 
