@@ -15,7 +15,7 @@
         <div class="container text-center">
             <div class="form-input">
                 <p id="error"></p>
-                <form method="post" name="myForm" onsubmit="return validateForm()">
+                <form method="post" name="myForm" onsubmit="return validateForm(event.submitter.value)">
                     <div class="form-group">
                         <input type="text" class="form-control" id="user" placeholder="username">
                         <p id="erroruser"></p>
@@ -28,23 +28,22 @@
                     </div>
 
                     <div class="form-group">
+                        <input type="submit" class="btn btn-default" value="Register">
+                        <input type="submit" class="btn btn-default" value="Login">
                 </form>
                 <!--Form-->
-
-                <input type="submit" class="btn btn-default" value="Login">
-
 
             </div>
             <!--Form-input-->
         </div>
         <!--COntainer-->
 
-
         <p class="requirements">*/Your password must contain:<br>
             - min. 6 letters<br>
             - upper & lowercase letter<br>
             - special character<br>
         </p>
+
 
     </div>
 
