@@ -38,7 +38,10 @@ function validateForm(submitType) {
                 return false;
             } else if (pwd.search(/[a-z]/) < 0) {
                 document.getElementById("errorpwdchar").innerHTML = "Your password must contain an lowercase letter";
+                return false;$  } else if (pwd.search(/[!?*#.,@%&+-ç=)("^`£$:;°§¨)]/) < 0) {
+                document.getElementById("errorpwdchar").innerHTML = "Your password must contain an special charachter";
                 return false;
+            }
           
 
             var newLogin =
