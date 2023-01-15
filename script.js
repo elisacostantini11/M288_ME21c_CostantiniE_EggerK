@@ -51,16 +51,7 @@ function validateForm(submitType) {
             document.getElementById("errorpwdchar").innerHTML = "Successfully registered, please login";
             return false;
 
-            break;
-
-        case 'Login':
-            let found = false;
-            let i = 0;
-            for (i = 0; i < logins.users.length && !found; ++i) {
-                if (username == logins.users[i].name) {
-                    if (pwd == logins.users[i].password) {
-                        found = true;
-                    }
+         
                 }
           
             }
