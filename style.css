@@ -36,15 +36,4 @@ form {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.requirements {
-    margin-left: 75px;
-    color: rgb(96, 96, 96);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 9pt;
-}
 
-.mcontainer {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
