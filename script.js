@@ -44,12 +44,7 @@ function validateForm(submitType) {
             }
           
 
-            var newLogin =
-                { "name": username, "password": pwd };
-            logins.users.push(newLogin);
-            console.log(logins);
-            document.getElementById("errorpwdchar").innerHTML = "Successfully registered, please login";
-            return false;
+          
 
    break;
 
