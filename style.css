@@ -1,4 +1,24 @@
+input:focus {
+    outline-color: blueviolet;
+}
 
+body {
+    background-color: black;
+}
+
+form {
+    margin: 50px 0 0 75px;
+    padding: auto;
+}
+
+.form-control {
+    padding: 10px;
+    border-radius: 0;
+    background: transparent;
+    color: #ffffff;
+    width: 24%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 .btn {
     padding: 10px;
