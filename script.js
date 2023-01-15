@@ -7,7 +7,7 @@ function removeAlerts() {
 
 
 
-let logins = JSON.parse('{ "users" : [ { "name":"Kim" , "password":"Kimm1%" }, { "name":"Elisa" , "password":"Elisa1%" } ]}');
+
 
 function validateForm(submitType) {
     removeAlerts();
@@ -63,7 +63,7 @@ function validateForm(submitType) {
                     }
                 }
           
-  }
+            }
             if (found) {
                 document.getElementById("errorpwdchar").innerHTML = "welcome: " + logins.users[i - 1].name;
             }
