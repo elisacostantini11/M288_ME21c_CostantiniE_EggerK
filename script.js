@@ -62,20 +62,4 @@ function validateForm(submitType) {
                         found = true;
                     }
                 }
-            }
-            if (found) {
-                document.getElementById("errorpwdchar").innerHTML = "welcome: " + logins.users[i - 1].name;
-            }
-            else {
-                document.getElementById("errorpwdchar").innerHTML = "login invalid ";
-            }
-            return false;
-            break;
-
-    }
-
-
-
-
-
-}
+          
