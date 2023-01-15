@@ -11,14 +11,6 @@ form {
     padding: auto;
 }
 
-.form-control {
-    padding: 10px;
-    border-radius: 0;
-    background: transparent;
-    color: #ffffff;
-    width: 24%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 .btn {
     padding: 10px;
